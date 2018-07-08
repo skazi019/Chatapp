@@ -4,7 +4,7 @@ A chatting app on localhost made using the tutorial of 'The Net Ninja' - https:/
 
 ---
 # Master branch(branch)
-master brnach is just a template for a server.
+master branch is just a template for a server.
 
 ---
 # transfering-data-through-websocket(branch)
@@ -20,9 +20,13 @@ in cmd
 
 
 1.to install nodemon
+
 ```npm install nodemon --save```
 
 
 2.to install socket.io
 ```npm install socket.io --save```
 
+
+To execute code, in cmd enter:
+```nodemon index```
