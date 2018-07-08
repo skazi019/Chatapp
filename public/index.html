@@ -7,7 +7,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js" charset="utf-8"></script>
   </head>
   <body>
-    <h1>You see me!</h1>
+    <div id="mario-chat">
+      <div id="chat-window">
+        <div id="output">  </div>
+      </div>
+      <input type="text" id="handle" placeholder="Handle" name="" value="">
+      <input type="text" name="" value="" id="message" placeholder="message">
+      <button type="button" name="button" id="send">Send</button>
+    </div>
     <script src="/chat.js" charset="utf-8"></script>
   </body>
 </html>

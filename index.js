@@ -18,4 +18,8 @@ var io = socket(server);
 
 io.on('connection', function(socket){
   console.log('A user conneted with id - ',socket.id);
+
+  socket.on('chat', function(data){
+    io.sockets.emit('chat', data);
+  });
 });
