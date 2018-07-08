@@ -25,8 +25,10 @@ in cmd
 
 
 2.to install socket.io
+
 ```npm install socket.io --save```
 
 
 To execute code, in cmd enter:
+
 ```nodemon index```
